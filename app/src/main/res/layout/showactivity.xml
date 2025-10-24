@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ShowActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="@string/listy__city">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:textSize="28sp"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id= "@+id/button_back"
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:clickable= "true"
+        android:focusable="true"
+        android:text="Back"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+</LinearLayout>

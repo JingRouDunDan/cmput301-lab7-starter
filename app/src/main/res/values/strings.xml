@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Android UI Testing</string>
+    <string name="back">Back</string>
+    <string name="city">City</string>
+    <string name="listy_city">Listy City</string>
+    <string name="listy__city">Listy City</string>
 </resources>
